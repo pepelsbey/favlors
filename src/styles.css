@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* List */
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+/* Items */
+
+li {
+    padding: 2em;
+}
+
+li:nth-child(1) {
+    background-color: tomato;
+}
+
+li:nth-child(2) {
+    background-color: plum;
+}
+
+li:nth-child(3) {
+    background-color: wheat;
+}
